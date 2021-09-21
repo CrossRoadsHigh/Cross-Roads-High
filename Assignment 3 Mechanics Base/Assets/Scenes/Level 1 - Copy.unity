@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: b67e11ef24fafe54bb254b92c4768826, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 7797c77eb313df043ad9d76273e55e45, type: 2}
 --- !u!1001 &44215168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -131,6 +131,10 @@ PrefabInstance:
     - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 481626, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1460,6 +1464,10 @@ PrefabInstance:
     - target: {fileID: 189736, guid: e74203ea62daad341816376fb141a8b5, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Couch_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189736, guid: e74203ea62daad341816376fb141a8b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 447308, guid: e74203ea62daad341816376fb141a8b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6277,6 +6285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.32045
@@ -8025,6 +8037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02
       objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.82045
@@ -8233,6 +8249,10 @@ PrefabInstance:
     - target: {fileID: 111178, guid: 2f4d900fcaef08b41a8e29001211a0cc, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Table_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 111178, guid: 2f4d900fcaef08b41a8e29001211a0cc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 488578, guid: 2f4d900fcaef08b41a8e29001211a0cc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14077,6 +14097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.729553
@@ -15517,6 +15541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Chair_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 139926, guid: f710382517201604d939dd1e30c50b66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 459288, guid: f710382517201604d939dd1e30c50b66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6195526
@@ -16741,6 +16769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asia-school-style-desk-and-chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3746d6c8fb7e21f4cb8cbbb55d0354c3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3746d6c8fb7e21f4cb8cbbb55d0354c3, type: 3}
@@ -18679,6 +18712,10 @@ PrefabInstance:
     - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25084,6 +25121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.82045
@@ -27186,6 +27227,10 @@ PrefabInstance:
     - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 481626, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30491,6 +30536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 481626, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.696556
@@ -31883,6 +31932,10 @@ PrefabInstance:
     - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 115676, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 481626, guid: ccc70d3ae8c17394f981d9af684e9312, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33500,6 +33553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_TrashCan_01
       objectReference: {fileID: 0}
+    - target: {fileID: 188538, guid: f738f6acdbb1d5844bd657732cb05e13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 405696, guid: f738f6acdbb1d5844bd657732cb05e13, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.849556
@@ -33610,6 +33667,10 @@ PrefabInstance:
     - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35050,6 +35111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Chair_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 139926, guid: f710382517201604d939dd1e30c50b66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 459288, guid: f710382517201604d939dd1e30c50b66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2295532
@@ -35429,6 +35494,10 @@ PrefabInstance:
     - target: {fileID: 143328, guid: 34805116d018a9f4899f8ec1bb2948b3, type: 3}
       propertyPath: m_Name
       value: SM_Prop_TrashCan_Lid_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 143328, guid: 34805116d018a9f4899f8ec1bb2948b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 440100, guid: 34805116d018a9f4899f8ec1bb2948b3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37765,6 +37834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Chair_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 139926, guid: f710382517201604d939dd1e30c50b66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 459288, guid: f710382517201604d939dd1e30c50b66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.9895554
@@ -38145,6 +38218,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_PotPlant_02
       objectReference: {fileID: 0}
+    - target: {fileID: 147494, guid: 31fa0b36e57a33f44ae905116d606e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 417678, guid: 31fa0b36e57a33f44ae905116d606e3a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.620445
@@ -38213,6 +38290,10 @@ PrefabInstance:
     - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Shelf_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 173912, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 413570, guid: 990ca4a6ba9b900449bc9d4d1a0c0dd0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39166,6 +39247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_ShopInterior_Chair_01
       objectReference: {fileID: 0}
+    - target: {fileID: 139926, guid: f710382517201604d939dd1e30c50b66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 459288, guid: f710382517201604d939dd1e30c50b66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5395508
@@ -39241,6 +39326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Couch_01
       objectReference: {fileID: 0}
+    - target: {fileID: 189736, guid: e74203ea62daad341816376fb141a8b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 447308, guid: e74203ea62daad341816376fb141a8b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.950447
@@ -39309,6 +39398,10 @@ PrefabInstance:
     - target: {fileID: 189736, guid: e74203ea62daad341816376fb141a8b5, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Couch_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189736, guid: e74203ea62daad341816376fb141a8b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 447308, guid: e74203ea62daad341816376fb141a8b5, type: 3}
       propertyPath: m_LocalPosition.x
