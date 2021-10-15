@@ -149,7 +149,7 @@ public class PlayerAvatar : MonoBehaviour {
         }
 
         transform.position = playerPosition;
-        rb.velocity = new Vector3(0,0,0);   //Freeze velocity
+        rb.velocity = new Vector3(0,rb.velocity.y,0);   //Freeze velocity
     }
 
 
