@@ -2495,6 +2495,12 @@ PrefabInstance:
       propertyPath: fireBool
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3142567211404141540, guid: b4ba8fb5d39ffab4fa0472987a3e6d48,
+        type: 3}
+      propertyPath: enemyFireDamage
+      value: 
+      objectReference: {fileID: 8658206190979730477, guid: 4b2d04b95fa92aa49bc6d9c789fc7f21,
+        type: 3}
     - target: {fileID: 4064047509469739237, guid: b4ba8fb5d39ffab4fa0472987a3e6d48,
         type: 3}
       propertyPath: m_Name

@@ -37,6 +37,10 @@ public class FlameEnemy : MonoBehaviour
     public GameObject burning;
     public GameObject explosion;
 
+    public GameObject enemyFireDamage;
+    private float FTFireTime = 0.2f;
+    private float FTFireTimer;
+
     // Use this for initialization
     void Start()
     {
@@ -99,6 +103,12 @@ public class FlameEnemy : MonoBehaviour
                     {
                         flameStream.GetComponent<ParticleSystem>().Play();
                         flamerTimer = Time.time + flamerTime;
+                    }
+
+                    if (Time.time > FTFireTimer)
+                    {
+                        Instantiate(enemyFireDamage, flameStream.transform.position, transform.rotation);
+                        FTFireTimer = Time.time + FTFireTime;
                     }
                 }
             }
