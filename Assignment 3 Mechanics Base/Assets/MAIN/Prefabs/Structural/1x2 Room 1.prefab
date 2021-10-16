@@ -105,6 +105,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5826727514132695042, guid: b3a058116e575a0489ae5cb02114833d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a058116e575a0489ae5cb02114833d, type: 3}
 --- !u!4 &944519779421546671 stripped
@@ -180,6 +185,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8444584068454117080, guid: 4ce5f7fec30ed1f458baa285dd1037f0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce5f7fec30ed1f458baa285dd1037f0, type: 3}
 --- !u!4 &5129328958414177038 stripped
@@ -195,6 +205,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6399836437186646951}
     m_Modifications:
+    - target: {fileID: 3778569681917990461, guid: a580c7178f7784548b8af3e8fb939601,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8010189793012284201, guid: a580c7178f7784548b8af3e8fb939601,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -249,6 +264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8238844851607716451, guid: a580c7178f7784548b8af3e8fb939601,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9065055490146080274, guid: a580c7178f7784548b8af3e8fb939601,
         type: 3}
@@ -330,6 +350,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6447841560545768113, guid: 6b6116e327a1a264b989e3863caa1055,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b6116e327a1a264b989e3863caa1055, type: 3}
 --- !u!4 &1058757539209156029 stripped
@@ -404,6 +429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444584068454117080, guid: 4ce5f7fec30ed1f458baa285dd1037f0,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ce5f7fec30ed1f458baa285dd1037f0, type: 3}
@@ -480,6 +510,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8245695004429919648, guid: dfa85589734b32f48a41e043d7f9f19d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfa85589734b32f48a41e043d7f9f19d, type: 3}
 --- !u!4 &1122970503725408073 stripped
@@ -555,6 +590,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor - Alt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4401322703541723266, guid: e9aea9533c02db54787e671d9a153d8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877385462123951324, guid: e9aea9533c02db54787e671d9a153d8c,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9aea9533c02db54787e671d9a153d8c, type: 3}
 --- !u!4 &5745067291543869207 stripped
@@ -629,6 +674,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8245695004429919648, guid: dfa85589734b32f48a41e043d7f9f19d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfa85589734b32f48a41e043d7f9f19d, type: 3}
