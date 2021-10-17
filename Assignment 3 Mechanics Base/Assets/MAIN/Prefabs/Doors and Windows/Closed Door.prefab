@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7315961600330510453}
   m_Layer: 0
   m_Name: Closed Door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,42 +233,42 @@ PrefabInstance:
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[0].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[0].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[1].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[1].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[2].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[2].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[3].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[3].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6943024851362772782, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
