@@ -1,5 +1,13 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/MAIN/Scenes/Level 1 - New Models.unity
+=======
+<<<<<<< Updated upstream
+- path: Assets/Scenes/Level 1.unity
+=======
+- path: Assets/MAIN/Scenes/Level 1 - New Models.unity
+>>>>>>> Stashed changes
+>>>>>>> Josh-VW
   isLoaded: 1
   isActive: 1
   isSubScene: 0
