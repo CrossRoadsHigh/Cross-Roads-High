@@ -46,7 +46,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &8667512754744880589
 Transform:
@@ -144,6 +144,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_01_Snaps014 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6296259094581929731, guid: 84b04aff491bb6d4b98ab1eb8d009475,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84b04aff491bb6d4b98ab1eb8d009475, type: 3}
 --- !u!4 &7894830544645758416 stripped
@@ -233,6 +238,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: desk_teacher
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b277aa0e08de9e14a9cc6559f2578132,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b277aa0e08de9e14a9cc6559f2578132, type: 3}
