@@ -28,12 +28,17 @@ public class FireDamage : MonoBehaviour {
     void OnTriggerEnter(Collider otherObject) {
 
         //Goes through enemies
-        if (otherObject.tag == "Enemy") {
-            if (!otherObject.GetComponent<Enemy>().burning) {
-                GameObject thisHit = Instantiate(burnDamage, otherObject.ClosestPoint(transform.position), transform.rotation) as GameObject;
-                thisHit.transform.parent = otherObject.transform;
-                otherObject.GetComponent<Enemy>().burning = thisHit;
-                Destroy(thisHit.gameObject, lifeTime * 5);
+        if (otherObject.tag == "Enemy") 
+        {
+            if (otherObject.GetComponent<Enemy>())
+            {
+                if (!otherObject.GetComponent<Enemy>().burning)
+                {
+                    GameObject thisHit = Instantiate(burnDamage, otherObject.ClosestPoint(transform.position), transform.rotation) as GameObject;
+                    thisHit.transform.parent = otherObject.transform;
+                    otherObject.GetComponent<Enemy>().burning = thisHit;
+                    Destroy(thisHit.gameObject, lifeTime * 5);
+                }
             }
         }
         //Blocked by environment
