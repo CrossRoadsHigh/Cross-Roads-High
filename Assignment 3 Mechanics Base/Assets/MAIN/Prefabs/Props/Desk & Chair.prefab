@@ -114,6 +114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_01_Snaps014
       objectReference: {fileID: 0}
+    - target: {fileID: 6296259094581929731, guid: 84b04aff491bb6d4b98ab1eb8d009475,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84b04aff491bb6d4b98ab1eb8d009475, type: 3}
 --- !u!4 &506121223655876174 stripped
@@ -133,6 +138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Desk_01_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 802575831363400479, guid: d5ed0a0025f0cd2478c4812e7f339c51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1172586718949307283, guid: d5ed0a0025f0cd2478c4812e7f339c51,
         type: 3}

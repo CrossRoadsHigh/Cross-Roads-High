@@ -44,7 +44,12 @@ public class PlayerAvatar : MonoBehaviour {
         if (!GameManager.instance.playerDead) {
             Movement();
             Shooting();
-        } 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void Shooting() {
