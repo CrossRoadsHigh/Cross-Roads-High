@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 576544407264912840}
   - component: {fileID: 576544407264912844}
   - component: {fileID: 8617047777142754396}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Fire Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}

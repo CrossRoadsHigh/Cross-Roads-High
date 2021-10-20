@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8658206190979730476}
   - component: {fileID: 1368694104277899763}
   - component: {fileID: 557755798147950008}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy Fire Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}

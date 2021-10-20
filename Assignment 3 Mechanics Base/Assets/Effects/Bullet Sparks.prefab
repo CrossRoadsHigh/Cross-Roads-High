@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2559903920383046735}
   - component: {fileID: 2393593961644375493}
   - component: {fileID: 2398821580557898715}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SideSparksEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4462,6 +4462,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4474,6 +4475,7 @@ ParticleSystemRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4521,7 +4523,7 @@ GameObject:
   - component: {fileID: 2393593960441189995}
   - component: {fileID: 2398821580851487553}
   - component: {fileID: 5395478300262253282}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bullet Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8974,6 +8976,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8986,6 +8989,7 @@ ParticleSystemRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -9045,7 +9049,7 @@ GameObject:
   - component: {fileID: 2559903921189977281}
   - component: {fileID: 2393593960295309955}
   - component: {fileID: 2398821581083855821}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SparksEffect2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13497,6 +13501,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13509,6 +13514,7 @@ ParticleSystemRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -13555,7 +13561,7 @@ GameObject:
   - component: {fileID: 2559903922451717865}
   - component: {fileID: 2393593958750046267}
   - component: {fileID: 2398821582609101647}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: SparkDeathEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18046,6 +18052,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18058,6 +18065,7 @@ ParticleSystemRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
