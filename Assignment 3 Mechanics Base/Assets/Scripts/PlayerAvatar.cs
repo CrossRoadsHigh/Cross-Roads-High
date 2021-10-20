@@ -25,6 +25,7 @@ public class PlayerAvatar : MonoBehaviour {
     private float FTFireTime = 0.2f;
     private float FTFireTimer;
     public int fuel = 50;
+    public GameObject burning;
 
     //Weapon Effects
     public GameObject muzzleFlash;
@@ -43,7 +44,12 @@ public class PlayerAvatar : MonoBehaviour {
         if (!GameManager.instance.playerDead) {
             Movement();
             Shooting();
-        } 
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     void Shooting() {
@@ -149,7 +155,7 @@ public class PlayerAvatar : MonoBehaviour {
         }
 
         transform.position = playerPosition;
-        rb.velocity = new Vector3(0,0,0);   //Freeze velocity
+        rb.velocity = new Vector3(0,rb.velocity.y,0);   //Freeze velocity
     }
 
 

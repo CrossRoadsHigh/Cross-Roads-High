@@ -118,6 +118,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Locker (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
 --- !u!4 &1726429684847407149 stripped
@@ -207,6 +212,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Locker (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
@@ -298,6 +308,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Locker (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
 --- !u!4 &2410856236636991185 stripped
@@ -387,6 +402,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Locker (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
@@ -478,6 +498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Locker (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
 --- !u!4 &5632252454505637253 stripped
@@ -567,6 +592,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Locker (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 48865685c6f4f964f89f3f3ad34898ec,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48865685c6f4f964f89f3f3ad34898ec, type: 3}
