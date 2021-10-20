@@ -92,12 +92,12 @@ public class MultishotEnemy : MonoBehaviour
                     if (Time.time > laserTimer)
                     {
                         Vector3 leftShot;
-                        leftShot.x = laserMuzzle.transform.rotation.x;
-                        leftShot.y = (laserMuzzle.transform.rotation.y * Mathf.Rad2Deg) + 10.0f;
-                        leftShot.z = laserMuzzle.transform.rotation.z;
+                        leftShot.x = laserMuzzle.transform.rotation.x * Mathf.Rad2Deg;
+                        leftShot.y = ((laserMuzzle.transform.rotation.y) + 10.0f) *Mathf.Rad2Deg;
+                        leftShot.z = laserMuzzle.transform.rotation.z * Mathf.Rad2Deg;
 
                         var temp = laserMuzzle.transform.rotation.y;
-                        Debug.Log(laserMuzzle.transform.rotation.y * Mathf.Rad2Deg);
+                        Debug.Log(leftShot);
 
 
                         Instantiate(laser, laserMuzzle.transform.position, laserMuzzle.transform.rotation);
