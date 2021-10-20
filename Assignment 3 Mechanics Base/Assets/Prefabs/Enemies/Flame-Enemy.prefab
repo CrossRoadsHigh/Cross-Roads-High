@@ -260,10 +260,10 @@ MonoBehaviour:
   laserMuzzle: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6,
     type: 3}
   flameStream: {fileID: 8477537081465015602}
-  burning: {fileID: 0}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
-  enemyFireDamage: {fileID: 0}
+  enemyFireDamage: {fileID: 8658206190979730477, guid: 4b2d04b95fa92aa49bc6d9c789fc7f21,
+    type: 3}
 --- !u!1001 &8476128059541806544
 PrefabInstance:
   m_ObjectHideFlags: 0

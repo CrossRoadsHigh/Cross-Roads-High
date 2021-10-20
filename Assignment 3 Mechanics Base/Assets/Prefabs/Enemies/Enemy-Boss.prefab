@@ -218,7 +218,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 1.5
+  m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &926377216852054239
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   health: 1250
-  agroRange: 30
+  agroRange: 10
   damage: 20
   rotationSpeed: 1
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
