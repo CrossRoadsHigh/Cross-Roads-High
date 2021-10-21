@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2270823990845204248}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 2515779657548814570}
   m_Layer: 0
   m_Name: Archway 1
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 5039902645278274574}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 8360351861214184430}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

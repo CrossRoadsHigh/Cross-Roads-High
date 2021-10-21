@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7315961600330510453}
   m_Layer: 0
   m_Name: Closed Door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,6 +40,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7315961600330510453}
     m_Modifications:
+    - target: {fileID: 3577890662480687336, guid: df1922fb0c045a24baf3ef9b5111b1e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3903667901145580525, guid: df1922fb0c045a24baf3ef9b5111b1e2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -114,6 +119,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Door_Frame_04_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4817426997028335656, guid: df1922fb0c045a24baf3ef9b5111b1e2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1922fb0c045a24baf3ef9b5111b1e2, type: 3}
@@ -205,6 +215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door_05_01_Snaps014
       objectReference: {fileID: 0}
+    - target: {fileID: 2516245525902266066, guid: 59c175834a393a740b01ff63eb258071,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59c175834a393a740b01ff63eb258071, type: 3}
 --- !u!4 &8155321648753415729 stripped
@@ -220,6 +235,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7315961600330510453}
     m_Modifications:
+    - target: {fileID: 242936983322895128, guid: dfa85589734b32f48a41e043d7f9f19d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 2482386110588045856, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Name
@@ -233,42 +253,42 @@ PrefabInstance:
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[0].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[0].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[1].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[1].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[2].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[2].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[3].x
-      value: 0.9999973
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6465636533523879104, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}
       propertyPath: m_Tangents.Array.data[3].y
-      value: -0.0023245488
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6943024851362772782, guid: dfa85589734b32f48a41e043d7f9f19d,
         type: 3}

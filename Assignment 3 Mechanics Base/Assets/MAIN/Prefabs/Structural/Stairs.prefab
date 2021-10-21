@@ -3809,7 +3809,7 @@ GameObject:
   - component: {fileID: 8758572021149563755}
   m_Layer: 0
   m_Name: Stairs
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3912,6 +3912,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_Bottom_Snaps014 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8871099320998931891, guid: 14f7c1eda85d88347b0b617ea9d6fd26,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f7c1eda85d88347b0b617ea9d6fd26, type: 3}
 --- !u!1 &7577975526835966452 stripped
@@ -3997,6 +4002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stairs_Bottom_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871099320998931891, guid: 14f7c1eda85d88347b0b617ea9d6fd26,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f7c1eda85d88347b0b617ea9d6fd26, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8166919830720392168}
   m_Layer: 0
   m_Name: Hallway - Vertical
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5826727514132695042, guid: b3a058116e575a0489ae5cb02114833d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a058116e575a0489ae5cb02114833d, type: 3}
 --- !u!4 &3362150063504257501 stripped
@@ -173,6 +178,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447841560545768113, guid: 6b6116e327a1a264b989e3863caa1055,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b6116e327a1a264b989e3863caa1055, type: 3}
