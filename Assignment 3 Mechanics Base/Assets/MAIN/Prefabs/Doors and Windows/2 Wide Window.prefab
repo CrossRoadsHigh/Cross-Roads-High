@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 2379884636381642925}
   m_Layer: 0
   m_Name: 2 Wide Window
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,6 +616,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2379884636381642925}
     m_Modifications:
+    - target: {fileID: 260618501778659567, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 745686781048496825, guid: c80d94eedf70d884ea028bdd8a55662e,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -676,6 +681,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1604008885463484221, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 1803693583550972499, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 2502388603006140522, guid: c80d94eedf70d884ea028bdd8a55662e,
         type: 3}
       propertyPath: m_Mesh
@@ -686,10 +701,45 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4033804325592897700, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273489061033044531, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 5768610146283131973, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 6232133375374903215, guid: c80d94eedf70d884ea028bdd8a55662e,
         type: 3}
       propertyPath: m_Name
       value: Wall_01_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232133375374903215, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7362344114527895790, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008570077846206579, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104491381158749556, guid: c80d94eedf70d884ea028bdd8a55662e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c80d94eedf70d884ea028bdd8a55662e, type: 3}

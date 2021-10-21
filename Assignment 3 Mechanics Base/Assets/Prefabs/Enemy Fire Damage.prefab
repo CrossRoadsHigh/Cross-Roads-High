@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8658206190979730476}
   - component: {fileID: 1368694104277899763}
   - component: {fileID: 557755798147950008}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Enemy Fire Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   lifeTime: 1.5
-  burnDamage: {fileID: 2740126369829757847, guid: dd56ab5edb853f948b29b1e25205de49,
+  burnDamage: {fileID: 3939077089846233796, guid: 7b00df5e248ba5842aada1b549233199,
     type: 3}
 --- !u!54 &557755798147950008
 Rigidbody:

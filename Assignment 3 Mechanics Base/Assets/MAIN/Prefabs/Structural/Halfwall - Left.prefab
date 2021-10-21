@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 909357849618883287}
   m_Layer: 0
   m_Name: Halfwall - Left
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,6 +42,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_02_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336055886372409595, guid: 1e97d8019c289ab4d9c16f58a4e2d4fd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 3489081754856129425, guid: 1e97d8019c289ab4d9c16f58a4e2d4fd,
         type: 3}

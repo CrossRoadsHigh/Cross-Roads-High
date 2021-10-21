@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8553598329626451541}
   m_Layer: 0
   m_Name: 2 Wide Window - Long
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,7 +51,7 @@ GameObject:
   - component: {fileID: 775145082743969108}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 9211730600005593917}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 7874831031143767639}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -992,7 +992,7 @@ GameObject:
   - component: {fileID: 4786135075444133229}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1359,6 +1359,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire Light
       objectReference: {fileID: 0}
+    - target: {fileID: 3367748666819107674, guid: 48863e4ea1d136148a511d4ac979d1ad,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 3367748667763885532, guid: 48863e4ea1d136148a511d4ac979d1ad,
         type: 3}
       propertyPath: m_SpotAngle
@@ -1394,6 +1399,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8553598329626451541}
     m_Modifications:
+    - target: {fileID: 574348246306642806, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 2264801225785794235, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386081528416848877, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 2934765219970858724, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1449,10 +1469,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2983397484735807712, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326687855976322019, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299996708843183472, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 6310794849994305507, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
         type: 3}
       propertyPath: m_Name
       value: Windows_03_Frame_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6310794849994305507, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540875209954247170, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616112211985902453, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7955810942562711513, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009110456982636571, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9147451614118348172, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165055303504357626, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f5ba86fbf6d6864d868ce2cb33d7a6e, type: 3}

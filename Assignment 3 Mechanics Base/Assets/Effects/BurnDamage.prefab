@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2742556058437709111}
   - component: {fileID: 2648031709492578331}
   - component: {fileID: 2649351551368392041}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Embers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4677,7 +4677,7 @@ GameObject:
   - component: {fileID: 2649240487760694413}
   - component: {fileID: 2648618691065292089}
   - component: {fileID: 2705963964170542992}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BurnDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9460,7 +9460,7 @@ GameObject:
   - component: {fileID: 2743063383528741737}
   - component: {fileID: 2648243316032673441}
   - component: {fileID: 2649571652394159573}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

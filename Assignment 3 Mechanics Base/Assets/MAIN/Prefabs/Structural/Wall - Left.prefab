@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1013879222907543570}
   m_Layer: 0
   m_Name: Wall - Left
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -927,6 +927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Wall_04_Snaps014 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469506207300015498, guid: 891d846432f1f5c43a14670352cdeced,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 891d846432f1f5c43a14670352cdeced, type: 3}

@@ -34,7 +34,6 @@ public class FlameEnemy : MonoBehaviour
     private float damageTimer;
     private float damageTime = 0.5f;
 
-    public GameObject burning;
     public GameObject explosion;
 
     public GameObject enemyFireDamage;
