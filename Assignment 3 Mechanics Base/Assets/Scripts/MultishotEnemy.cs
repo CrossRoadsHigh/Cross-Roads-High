@@ -8,6 +8,9 @@ public class MultishotEnemy : MonoBehaviour
     NavMeshAgent agent;
 
     public GameObject player;
+    public GameObject minion;
+    public bool boss;
+    public float spawnChance;
 
     public float health = 10.0f;
 
@@ -22,9 +25,10 @@ public class MultishotEnemy : MonoBehaviour
     //Laser Damage
     public GameObject laser;
     public GameObject laserMuzzle;
+    public float laserAngle;
 
     private float laserTimer;
-    private float laserTime = 0.5f;
+    public float laserTime;
 
     //Collision Damage
     private float damageTimer;
@@ -37,6 +41,10 @@ public class MultishotEnemy : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        if (this.gameObject.name == "Spread-Enemy-Boss")
+        {
+            boss = true;
+        }
     }
 
     // Update is called once per frame
@@ -91,17 +99,32 @@ public class MultishotEnemy : MonoBehaviour
                     //Fire Laser
                     if (Time.time > laserTimer)
                     {
-                        Vector3 leftShot;
-                        leftShot.x = laserMuzzle.transform.rotation.x * Mathf.Rad2Deg;
-                        leftShot.y = ((laserMuzzle.transform.rotation.y) + 10.0f) *Mathf.Rad2Deg;
-                        leftShot.z = laserMuzzle.transform.rotation.z * Mathf.Rad2Deg;
+                        Vector3 rightShot = laserMuzzle.transform.rotation.eulerAngles;
+                        rightShot = new Vector3(rightShot.x, rightShot.y + laserAngle, rightShot.z);
 
-                        var temp = laserMuzzle.transform.rotation.y;
-                        Debug.Log(leftShot);
-
+                        Vector3 leftShot = laserMuzzle.transform.rotation.eulerAngles;
+                        leftShot = new Vector3(leftShot.x, leftShot.y - laserAngle, leftShot.z);
 
                         Instantiate(laser, laserMuzzle.transform.position, laserMuzzle.transform.rotation);
-                        Instantiate(laser, laserMuzzle.transform.position, Quaternion.Euler(leftShot.x, leftShot.y, leftShot.z));
+                        Instantiate(laser, laserMuzzle.transform.position, Quaternion.Euler(rightShot));
+                        Instantiate(laser, laserMuzzle.transform.position, Quaternion.Euler(leftShot));
+
+                        //Spawn minions
+                        if (boss && spawnChance > Random.Range(1, 100))
+                        {
+                            Vector3 rightSpawn = laserMuzzle.transform.position;
+                            rightSpawn = new Vector3(rightSpawn.x + 0.7f, rightSpawn.y, rightSpawn.z + 1.2f);
+
+                            Vector3 leftSpawn = laserMuzzle.transform.position;
+                            leftSpawn = new Vector3(leftSpawn.x - 0.7f, leftSpawn.y, leftSpawn.z + 1.2f);
+
+                            Instantiate(minion, rightSpawn, laserMuzzle.transform.rotation);
+                            Instantiate(minion, leftSpawn, laserMuzzle.transform.rotation);
+                            //Instantiate(minion, laserMuzzle.transform.position, laserMuzzle.transform.rotation);
+                        }
+
+
+
                         laserTimer = Time.time + laserTime;
                     }
                 }
