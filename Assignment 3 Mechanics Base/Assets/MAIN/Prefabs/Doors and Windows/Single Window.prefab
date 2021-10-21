@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8566916212103301906}
+  - component: {fileID: 3104776448186759305}
   m_Layer: 0
   m_Name: Single Window
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,6 +37,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3104776448186759305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608843541725999324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4, z: 0.2}
+  m_Center: {x: 2, y: 2, z: 0}
 --- !u!1 &3559758843346220597
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,7 +65,7 @@ GameObject:
   - component: {fileID: 5101527141277983358}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,7 +376,7 @@ GameObject:
   - component: {fileID: 5569083182165261351}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -673,7 +687,7 @@ GameObject:
   - component: {fileID: 6652880851032256271}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -984,7 +998,7 @@ GameObject:
   - component: {fileID: 5055346320984819980}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1382,10 +1396,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8566916212103301906}
     m_Modifications:
+    - target: {fileID: 5583659183157674676, guid: 22195008424561c4e87dcfe560dd102f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 6591342405179033424, guid: 22195008424561c4e87dcfe560dd102f,
         type: 3}
       propertyPath: m_Name
       value: Windows_07_Frame_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6591342405179033424, guid: 22195008424561c4e87dcfe560dd102f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 7585766583336857794, guid: 22195008424561c4e87dcfe560dd102f,
         type: 3}
@@ -1441,6 +1465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8259112186815660994, guid: 22195008424561c4e87dcfe560dd102f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22195008424561c4e87dcfe560dd102f, type: 3}

@@ -5256,7 +5256,7 @@ GameObject:
   - component: {fileID: 2316955145815156238}
   m_Layer: 0
   m_Name: Staircase
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43629,6 +43629,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs_Bottom_Snaps014
       objectReference: {fileID: 0}
+    - target: {fileID: 8871099320998931891, guid: 14f7c1eda85d88347b0b617ea9d6fd26,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14f7c1eda85d88347b0b617ea9d6fd26, type: 3}
 --- !u!1 &8950425092624414356 stripped
@@ -43659,6 +43664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stairs_top_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220357824390746042, guid: a00727085cbfd6e41bf1805bc1f8398d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 4524566999862034242, guid: a00727085cbfd6e41bf1805bc1f8398d,
         type: 3}
@@ -43816,6 +43826,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4860654212680751767, guid: af9bdc7fedf1c724fadb7d27a75a3f98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9bdc7fedf1c724fadb7d27a75a3f98, type: 3}
 --- !u!1 &6612518462240294021 stripped
@@ -43837,10 +43852,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2316955145815156238}
     m_Modifications:
+    - target: {fileID: 552555225577145591, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 663321543383662494, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 701350301099143285, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 726372171212419991, guid: f096955f319f5da478d422cf9f9bb875,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104792815317418389, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 2705136147506831342, guid: f096955f319f5da478d422cf9f9bb875,
         type: 3}
@@ -43897,21 +43932,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3532839777459656685, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681365790836142755, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 4779384665077600461, guid: f096955f319f5da478d422cf9f9bb875,
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5154260469687793343, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 5243563417755106533, guid: f096955f319f5da478d422cf9f9bb875,
         type: 3}
       propertyPath: m_Name
       value: Floor_stairs_bottom_Snaps014
       objectReference: {fileID: 0}
+    - target: {fileID: 5243563417755106533, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 6211599613056267319, guid: f096955f319f5da478d422cf9f9bb875,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b951aaaf92535f74d86adeb20e0ee95e, type: 2}
+    - target: {fileID: 6429757181869101540, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7554787015882028981, guid: f096955f319f5da478d422cf9f9bb875,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f096955f319f5da478d422cf9f9bb875, type: 3}
 --- !u!1 &8056018334192550467 stripped
@@ -44007,6 +44072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860654212680751767, guid: af9bdc7fedf1c724fadb7d27a75a3f98,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af9bdc7fedf1c724fadb7d27a75a3f98, type: 3}

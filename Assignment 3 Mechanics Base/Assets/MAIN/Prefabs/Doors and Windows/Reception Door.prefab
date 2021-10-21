@@ -3507,7 +3507,7 @@ GameObject:
   - component: {fileID: 4702669947513069039}
   m_Layer: 0
   m_Name: Reception Door
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3534,10 +3534,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4702669947513069039}
     m_Modifications:
+    - target: {fileID: 159957857299983631, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 424584719924927475, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
         type: 3}
       propertyPath: m_Name
       value: Door_Frame_01_Snaps014
+      objectReference: {fileID: 0}
+    - target: {fileID: 424584719924927475, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
       objectReference: {fileID: 0}
     - target: {fileID: 522758427288081529, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
         type: 3}
@@ -3594,6 +3604,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 738431126356260424, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 2237419152724396302, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 4456851996796926113, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 4573294142873923156, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
         type: 3}
       propertyPath: m_Mesh
@@ -3604,11 +3629,31 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5977769565997855715, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 6891748353057259637, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608108512572788592, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     - target: {fileID: 7611115961408267829, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b951aaaf92535f74d86adeb20e0ee95e, type: 2}
+    - target: {fileID: 8788507517364699625, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Environment
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51c9ab6bdf3e3f347b5b6193a16b5e5d, type: 3}
 --- !u!1 &1591420351976335238 stripped
