@@ -5,13 +5,25 @@ using UnityEngine;
 public class Bullet : Projectile {
 
     public override void OnTriggerEnter(Collider otherObject) {
-        if (otherObject.tag == "Enemy") {
-            otherObject.GetComponent<Enemy>().takeDamage(damage);
-            Instantiate(hitEffect, transform.position, transform.rotation);
-            Destroy(this.gameObject);
+
+        if (otherObject.tag == "Enemy") 
+        { 
+            if (otherObject.GetComponent<Enemy>())
+            {
+                otherObject.GetComponent<Enemy>().takeDamage(damage);
+                Instantiate(hitEffect, transform.position, transform.rotation);
+                Destroy(this.gameObject);
+            }
+            else if (otherObject.GetComponent<FlameEnemy>())
+            {
+                otherObject.GetComponent<FlameEnemy>().takeDamage(damage);
+                Instantiate(hitEffect, transform.position, transform.rotation);
+                Destroy(this.gameObject);
+            }
+            
+            
         }
-        else if (otherObject.gameObject.tag == "Environment")
-        {
+        else if (otherObject.tag == "Environment") {
             Instantiate(hitEffect, transform.position, transform.rotation);
             Destroy(this.gameObject);
         }

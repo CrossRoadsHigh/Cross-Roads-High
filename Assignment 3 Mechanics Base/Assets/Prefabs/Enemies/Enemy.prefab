@@ -130,7 +130,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 5
+  m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -171,13 +171,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  health: 750
-  agroRange: 15
+  health: 500
+  agroRange: 10
   damage: 5
   rotationSpeed: 1
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   laser: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6, type: 3}
   laserMuzzle: {fileID: 1737323326}
+  laserTime: 1
   burning: {fileID: 0}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
