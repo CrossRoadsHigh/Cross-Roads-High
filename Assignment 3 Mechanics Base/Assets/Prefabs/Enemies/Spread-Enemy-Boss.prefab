@@ -69,7 +69,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 0.5
+  m_Speed: 0
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -112,8 +112,8 @@ MonoBehaviour:
   player: {fileID: 0}
   minion: {fileID: 6408151053553493023, guid: 2604ddb1833f987419db7466d0db66e9, type: 3}
   boss: 0
-  spawnChance: 1250
-  health: 500
+  spawnChance: 10
+  health: 1250
   agroRange: 15
   damage: 5
   rotationSpeed: 2
