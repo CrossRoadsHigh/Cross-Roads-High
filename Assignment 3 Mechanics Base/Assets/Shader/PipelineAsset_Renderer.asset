@@ -15,7 +15,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: Render Particles
-    Event: 1000
+    Event: 550
     filterSettings:
       RenderQueueType: 1
       LayerMask:
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Active: 1
   settings:
     passTag: ToonShader
-    Event: 600
+    Event: 500
     filterSettings:
       RenderQueueType: 0
       LayerMask:
