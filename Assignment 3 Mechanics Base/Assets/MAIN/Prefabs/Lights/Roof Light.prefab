@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8563371762957190338}
   - component: {fileID: 9148973198618709074}
+  - component: {fileID: 4667698106872637618}
   m_Layer: 0
   m_Name: Roof Light
   m_TagString: Untagged
@@ -92,3 +93,19 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &4667698106872637618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740818757208050537}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 631f0122f04175b48bc3b024a11b4959, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 0
+  maxIntensity: 1
+  smoothing: 5
