@@ -100,6 +100,10 @@ MonoBehaviour:
   lifeTime: 1.5
   hitEffect: {fileID: 2561179782580251521, guid: 49e094634252904448af1577d42a9782,
     type: 3}
+  audioObjectPrefab: {fileID: 6865235635844741477, guid: 3e129591b6b5b6e489e218f7178d02fb,
+    type: 3}
+  enemyHitClip: {fileID: 8300000, guid: 22dfc4f81c9fb8949bcb5226b431e0ee, type: 3}
+  environmentHitClip: {fileID: 0}
 --- !u!54 &54189184092056024
 Rigidbody:
   m_ObjectHideFlags: 0

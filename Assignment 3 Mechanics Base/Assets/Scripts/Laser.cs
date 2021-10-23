@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class Laser : Projectile {
 
+    public GameObject audioObjectPrefab;
+    public AudioClip laserClip;
+
+    public void Awake()
+    {
+        GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+        thisAudioObject.GetComponent<AudioSource>().clip = laserClip;
+    }
+
     public override void OnTriggerEnter(Collider otherObject) {
 
         if (otherObject.tag == "Player") {

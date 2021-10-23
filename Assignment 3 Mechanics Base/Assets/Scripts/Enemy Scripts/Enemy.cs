@@ -32,6 +32,12 @@ public class Enemy : MonoBehaviour {
     public GameObject burning;
     public GameObject explosion;
 
+    //Audio Variables
+    public GameObject audioObjectPrefab;
+    public AudioClip deathClip;
+    public AudioClip detectClip;
+    public bool wasDetected;
+
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
@@ -45,6 +51,9 @@ public class Enemy : MonoBehaviour {
         //Kill check - moved from takeDamage due to bug
         if (health <= 0) {
             Instantiate(explosion, transform.position, transform.rotation);
+            GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+            thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
+
             Destroy(this.gameObject);
         }
     }
@@ -57,10 +66,19 @@ public class Enemy : MonoBehaviour {
 
             //Raycast in direction of Player
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, -(transform.position - player.transform.position).normalized, out hit, agroRange)) {
+            if (Physics.Raycast(transform.position, -(transform.position - player.transform.position).normalized, out hit, agroRange))
+            {
 
                 //If Raycast hits player
-                if (hit.transform.tag == "Player") {
+                if (hit.transform.tag == "Player")
+                {
+
+                    if (!wasDetected)
+                    {
+                        GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+                        thisAudioObject.GetComponent<AudioSource>().clip = detectClip;
+                    }
+                    wasDetected = true;
 
                     Debug.DrawLine(transform.position, player.transform.position, Color.red);
 
@@ -70,21 +88,26 @@ public class Enemy : MonoBehaviour {
                     transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, adjRotSpeed);
 
                     //Move towards player
-                    if (Vector3.Distance(player.transform.position, transform.position) >= 5) {
+                    if (Vector3.Distance(player.transform.position, transform.position) >= 5)
+                    {
                         agent.SetDestination(player.transform.position);
                     }
                     //Stop if close to player
-                    else if (Vector3.Distance(player.transform.position, transform.position) < 5) {
+                    else if (Vector3.Distance(player.transform.position, transform.position) < 5)
+                    {
                         agent.SetDestination(transform.position);
                     }
 
                     //Fire Laser
-                    if (Time.time > laserTimer) {
+                    if (Time.time > laserTimer)
+                    {
                         Instantiate(laser, laserMuzzle.transform.position, laserMuzzle.transform.rotation);
                         laserTimer = Time.time + laserTime;
                     }
                 }
             }
+            else
+                wasDetected = false;
         }
     }
 
