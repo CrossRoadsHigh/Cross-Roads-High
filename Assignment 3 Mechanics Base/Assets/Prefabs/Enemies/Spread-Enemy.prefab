@@ -265,3 +265,8 @@ MonoBehaviour:
   burning: {fileID: 0}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
+  dropChance: 25
+  HealthPack: {fileID: 1783394662479734, guid: 62530b35f6cbb6e4b9f4c31192a041f7, type: 3}
+  AmmoBox: {fileID: 6571354316034849480, guid: eeed428b62c98654083392bbaab0951a, type: 3}
+  FuelPack: {fileID: 2374393348400003496, guid: 0ef9caafbf6f35c43a0f4c4733f98a87,
+    type: 3}
