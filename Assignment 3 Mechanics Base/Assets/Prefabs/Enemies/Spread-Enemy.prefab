@@ -253,7 +253,7 @@ MonoBehaviour:
   minion: {fileID: 0}
   boss: 0
   spawnChance: 0
-  health: 500
+  health: 400
   agroRange: 15
   damage: 2.5
   rotationSpeed: 2
