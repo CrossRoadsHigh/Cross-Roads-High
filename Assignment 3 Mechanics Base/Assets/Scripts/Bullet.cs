@@ -6,7 +6,6 @@ public class Bullet : Projectile {
 
     public GameObject audioObjectPrefab;
     public AudioClip enemyHitClip;
-    public AudioClip environmentHitClip;
 
     public override void OnTriggerEnter(Collider otherObject) {
 
