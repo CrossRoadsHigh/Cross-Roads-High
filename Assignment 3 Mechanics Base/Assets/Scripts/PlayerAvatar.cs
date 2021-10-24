@@ -31,6 +31,13 @@ public class PlayerAvatar : MonoBehaviour {
     public GameObject muzzleFlash;
     public GameObject flameStream;
 
+    //Variables for sfx
+    private bool playerWasShooting;
+    private bool playerWasUsingFlamethrower;
+    public AudioSource thisAudioSource;
+    public AudioClip shooting;
+    public AudioClip flamethrower;
+
     // Use this for initialization
     void Start () {
         anim = avatar.GetComponent<Animator>();
@@ -65,10 +72,20 @@ public class PlayerAvatar : MonoBehaviour {
             }
 
             anim.SetBool("Shooting", true);
+
+            if (!playerWasShooting)
+            {
+                thisAudioSource.clip = shooting;
+                thisAudioSource.Play();
+                playerWasShooting = true;
+            }
         }
-        else {
+        else if (!Input.GetMouseButton(1) || fuel <= 0){
             muzzleFlash.SetActive(false);
             anim.SetBool("Shooting", false);
+
+            thisAudioSource.Stop();
+            playerWasShooting = false;
         }
 
         //Right Mouse Button
@@ -91,6 +108,18 @@ public class PlayerAvatar : MonoBehaviour {
                 fuel -= 1;
                 FTFireTimer = Time.time + FTFireTime;
             }
+
+            if (!playerWasUsingFlamethrower)
+            {
+                thisAudioSource.clip = flamethrower;
+                thisAudioSource.Play();
+                playerWasUsingFlamethrower = true;
+            }
+        }
+        else if (!Input.GetMouseButton(0) || ammo <= 0)
+        {
+            playerWasUsingFlamethrower = false;
+            thisAudioSource.Stop();
         }
     }
 
