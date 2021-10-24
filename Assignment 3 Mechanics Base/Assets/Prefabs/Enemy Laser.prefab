@@ -185,3 +185,6 @@ MonoBehaviour:
   damage: 5
   lifeTime: 1.5
   hitEffect: {fileID: 0}
+  audioObjectPrefab: {fileID: 6865235635844741477, guid: 3e129591b6b5b6e489e218f7178d02fb,
+    type: 3}
+  laserClip: {fileID: 8300000, guid: 4a98bd6687f92ef44b10be831c67d7a9, type: 3}
