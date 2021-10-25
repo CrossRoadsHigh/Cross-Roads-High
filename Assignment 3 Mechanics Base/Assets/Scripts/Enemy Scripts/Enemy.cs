@@ -32,12 +32,15 @@ public class Enemy : MonoBehaviour {
     public GameObject burning;
     public GameObject explosion;
 
+<<<<<<< HEAD
     //Audio Variables
     public GameObject audioObjectPrefab;
     public AudioClip deathClip;
     public AudioClip detectClip;
     public bool wasDetected;
 
+=======
+>>>>>>> parent of b573f127 (Enemies now drop pickups)
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
@@ -51,9 +54,12 @@ public class Enemy : MonoBehaviour {
         //Kill check - moved from takeDamage due to bug
         if (health <= 0) {
             Instantiate(explosion, transform.position, transform.rotation);
+<<<<<<< HEAD
             GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
             thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
 
+=======
+>>>>>>> parent of b573f127 (Enemies now drop pickups)
             Destroy(this.gameObject);
         }
     }

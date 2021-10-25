@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:Assignment 3 Mechanics Base/Assets/MAIN/Prefabs/Lights/Fallen Light.prefab.meta
+<<<<<<< HEAD
 guid: fe3c60454b8480b47aa932688be1735c
+=======
+guid: a5007f43fdf411c4c93d28fed29c9673
+>>>>>>> parent of b573f127 (Enemies now drop pickups)
 PrefabImporter:
 =======
 guid: 985a1e30f5abb814d9010445dfc8ef62

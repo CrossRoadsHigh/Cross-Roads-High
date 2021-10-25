@@ -182,10 +182,13 @@ MonoBehaviour:
   burning: {fileID: 0}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
+<<<<<<< HEAD
   audioObjectPrefab: {fileID: 6865235635844741477, guid: 3e129591b6b5b6e489e218f7178d02fb,
     type: 3}
   deathClip: {fileID: 8300000, guid: dfe477c846a3d0848b7677f63752bf9e, type: 3}
   detectClip: {fileID: 8300000, guid: 2416c5eaab46dfe42b337e8733d1c51c, type: 3}
+=======
+>>>>>>> parent of b573f127 (Enemies now drop pickups)
 --- !u!1 &1910493276591460
 GameObject:
   m_ObjectHideFlags: 0
