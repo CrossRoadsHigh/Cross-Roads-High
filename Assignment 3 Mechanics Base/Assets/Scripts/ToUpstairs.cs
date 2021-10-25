@@ -8,6 +8,10 @@ public class ToUpstairs : MonoBehaviour
     public GameObject teleportPos;
     public GameObject camera;
 
+    public bool teleport;
+    public float teleportTimer;
+    public float teleportTime;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,15 +25,23 @@ public class ToUpstairs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Time.time > teleportTimer && teleport == false)
+        {
+            teleport = true;
+            teleportTimer = Time.time + teleportTime;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.transform.tag == "Player")
         {
-            collision.transform.position = teleportPos.transform.position;
-            camera.transform.position = teleportPos.transform.position;
+            if (teleport == true)
+            {
+                collision.transform.position = teleportPos.transform.position;
+                camera.transform.position = teleportPos.transform.position;
+                teleport = false;
+            }
         }
     }
 }

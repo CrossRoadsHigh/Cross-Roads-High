@@ -24,7 +24,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2069739527190713968}
   m_Layer: 0
-  m_Name: Weight Bench
+  m_Name: Weight Bench + Barbell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,6 +142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: barbell
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d6065d427d4e1ea479527ee8a3895cb5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6065d427d4e1ea479527ee8a3895cb5, type: 3}
 --- !u!1 &2630917160678420623 stripped
@@ -237,6 +242,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: weight_bench
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e130483cc0bf61c45b3d140c1a828c59,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e130483cc0bf61c45b3d140c1a828c59, type: 3}
