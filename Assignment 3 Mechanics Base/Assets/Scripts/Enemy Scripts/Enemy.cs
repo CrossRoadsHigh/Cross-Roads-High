@@ -38,6 +38,11 @@ public class Enemy : MonoBehaviour {
     public AudioClip detectClip;
     public bool wasDetected;
 
+    public float dropChance;
+    public GameObject HealthPack;
+    public GameObject AmmoBox;
+    public GameObject FuelPack;
+
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
@@ -53,6 +58,28 @@ public class Enemy : MonoBehaviour {
             Instantiate(explosion, transform.position, transform.rotation);
             GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
             thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
+
+            if (dropChance > Random.Range(1, 100))
+            {
+                Vector3 dropPoint = transform.position;
+                dropPoint = new Vector3(dropPoint.x, dropPoint.y - 1.5f, dropPoint.z);
+
+                float packDrop = Random.Range(1, 100);
+                Debug.Log(packDrop);
+
+                if (33.0f > packDrop)
+                {
+                    Instantiate(AmmoBox, dropPoint, transform.rotation);
+                }
+                else if (66.0f > packDrop)
+                {
+                    Instantiate(FuelPack, dropPoint, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(HealthPack, dropPoint, transform.rotation);
+                }
+            }
 
             Destroy(this.gameObject);
         }
