@@ -45,6 +45,15 @@ public class FlameEnemy : MonoBehaviour
     public GameObject AmmoBox;
     public GameObject FuelPack;
 
+    //Audio Variables
+    public GameObject audioObjectPrefab;
+    public AudioSource source;
+    public AudioClip deathClip;
+    public AudioClip detectClip;
+    public AudioClip flameClip;
+    public bool wasDetected;
+    public bool wasShooting;
+
     // Use this for initialization
     void Start()
     {
@@ -56,6 +65,20 @@ public class FlameEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (flameStream.GetComponent<ParticleSystem>().isPlaying)
+        {
+            if (!wasShooting)
+            {
+                wasShooting = true;
+                source.clip = flameClip;
+                source.Play();
+            }
+        }
+        else
+        {
+            source.Stop();
+            wasShooting = false;
+        }
 
         Behaviour();
 
@@ -64,6 +87,8 @@ public class FlameEnemy : MonoBehaviour
         {
             flameStream.GetComponent<ParticleSystem>().Stop();
             Instantiate(explosion, transform.position, transform.rotation);
+            GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+            thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
 
             if (dropChance > Random.Range(1, 100))
             {
@@ -107,6 +132,13 @@ public class FlameEnemy : MonoBehaviour
                 //If Raycast hits player
                 if (hit.transform.tag == "Player")
                 {
+                    if (!wasDetected)
+                    {
+                        GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+                        thisAudioObject.GetComponent<AudioSource>().clip = detectClip;
+                    }
+                    wasDetected = true;
+
                     Debug.DrawLine(transform.position, player.transform.position, Color.red);
 
                     //Rotate slowly towards player
@@ -139,6 +171,8 @@ public class FlameEnemy : MonoBehaviour
                     }
                 }
             }
+            else
+                wasDetected = false;
         }
     }
 

@@ -42,6 +42,12 @@ public class MultishotEnemy : MonoBehaviour
     public GameObject AmmoBox;
     public GameObject FuelPack;
 
+    //Audio Variables
+    public GameObject audioObjectPrefab;
+    public AudioClip deathClip;
+    public AudioClip detectClip;
+    public bool wasDetected;
+
     // Use this for initialization
     void Start()
     {
@@ -62,6 +68,8 @@ public class MultishotEnemy : MonoBehaviour
         if (health <= 0)
         {
             Instantiate(explosion, transform.position, transform.rotation);
+            GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+            thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
 
             if (dropChance > Random.Range(1, 100))
             {
@@ -105,6 +113,12 @@ public class MultishotEnemy : MonoBehaviour
                 //If Raycast hits player
                 if (hit.transform.tag == "Player")
                 {
+                    if (!wasDetected)
+                    {
+                        GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+                        thisAudioObject.GetComponent<AudioSource>().clip = detectClip;
+                    }
+                    wasDetected = true;
 
                     Debug.DrawLine(transform.position, player.transform.position, Color.red);
 
@@ -157,6 +171,8 @@ public class MultishotEnemy : MonoBehaviour
                     }
                 }
             }
+            else
+                wasDetected = false;
         }
     }
 
