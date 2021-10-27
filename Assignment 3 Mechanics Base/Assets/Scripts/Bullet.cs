@@ -26,7 +26,17 @@ public class Bullet : Projectile {
                 otherObject.GetComponent<FlameEnemy>().takeDamage(damage);
                 Instantiate(hitEffect, transform.position, transform.rotation);
                 Destroy(this.gameObject);
-            }          
+            }
+            else if (otherObject.GetComponent<MultishotEnemy>())
+            {
+                otherObject.GetComponent<MultishotEnemy>().takeDamage(damage);
+                Instantiate(hitEffect, transform.position, transform.rotation);
+
+                GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
+                thisAudioObject.GetComponent<AudioSource>().clip = enemyHitClip;
+
+                Destroy(this.gameObject);
+            }
         }
         else if (otherObject.tag == "Environment") {
             Instantiate(hitEffect, transform.position, transform.rotation);

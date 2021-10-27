@@ -38,6 +38,9 @@ public class PlayerAvatar : MonoBehaviour {
     public AudioClip shooting;
     public AudioClip flamethrower;
 
+    // UI
+    public PauseMenuHandler PauseMenuScript;
+
     // Use this for initialization
     void Start () {
         anim = avatar.GetComponent<Animator>();
@@ -55,7 +58,7 @@ public class PlayerAvatar : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.Quit();
+            PauseMenuScript.PauseGame(false);
         }
     }
 
@@ -205,6 +208,7 @@ public class PlayerAvatar : MonoBehaviour {
             anim.SetBool("Strafe L", false);
             GameManager.instance.playerDead = true;
             rb.constraints = RigidbodyConstraints.FreezeAll;
+            PauseMenuScript.PauseGame(true);
         }
     }
 

@@ -32,15 +32,17 @@ public class Enemy : MonoBehaviour {
     public GameObject burning;
     public GameObject explosion;
 
-<<<<<<< HEAD
     //Audio Variables
     public GameObject audioObjectPrefab;
     public AudioClip deathClip;
     public AudioClip detectClip;
     public bool wasDetected;
 
-=======
->>>>>>> parent of b573f127 (Enemies now drop pickups)
+    public float dropChance;
+    public GameObject HealthPack;
+    public GameObject AmmoBox;
+    public GameObject FuelPack;
+
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
@@ -54,12 +56,31 @@ public class Enemy : MonoBehaviour {
         //Kill check - moved from takeDamage due to bug
         if (health <= 0) {
             Instantiate(explosion, transform.position, transform.rotation);
-<<<<<<< HEAD
             GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
             thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
 
-=======
->>>>>>> parent of b573f127 (Enemies now drop pickups)
+            if (dropChance > Random.Range(1, 100))
+            {
+                Vector3 dropPoint = transform.position;
+                dropPoint = new Vector3(dropPoint.x, dropPoint.y - 1.5f, dropPoint.z);
+
+                float packDrop = Random.Range(1, 100);
+                Debug.Log(packDrop);
+
+                if (33.0f > packDrop)
+                {
+                    Instantiate(AmmoBox, dropPoint, transform.rotation);
+                }
+                else if (66.0f > packDrop)
+                {
+                    Instantiate(FuelPack, dropPoint, transform.rotation);
+                }
+                else
+                {
+                    Instantiate(HealthPack, dropPoint, transform.rotation);
+                }
+            }
+
             Destroy(this.gameObject);
         }
     }

@@ -79,7 +79,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1
-  m_BaseOffset: 1
+  m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!54 &3696602700606702648
@@ -111,10 +111,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  health: 1250
+  health: 1500
   agroRange: 15
   damage: 5
-  rotationSpeed: 1
+  rotationSpeed: 2
   targetRotation: {x: 0, y: 0, z: 0, w: 1}
   laser: {fileID: 0}
   laserMuzzle: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6,
@@ -123,6 +123,12 @@ MonoBehaviour:
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
   enemyFireDamage: {fileID: 8658206190979730477, guid: 4b2d04b95fa92aa49bc6d9c789fc7f21,
+    type: 3}
+  dropChance: 0
+  HealthPack: {fileID: 5964720877096715479, guid: 1269ecbf91b50104aa1dbd2641c4ef33,
+    type: 3}
+  AmmoBox: {fileID: 6571354316034849480, guid: eeed428b62c98654083392bbaab0951a, type: 3}
+  FuelPack: {fileID: 2374393348400003496, guid: 0ef9caafbf6f35c43a0f4c4733f98a87,
     type: 3}
 --- !u!1 &3714154844152180138
 GameObject:

@@ -40,6 +40,16 @@ public class FireDamage : MonoBehaviour {
                     Destroy(thisHit.gameObject, lifeTime * 5);
                 }
             }
+            else if (otherObject.GetComponent<MultishotEnemy>())
+            {
+                if (!otherObject.GetComponent<MultishotEnemy>().burning)
+                {
+                    GameObject thisHit = Instantiate(burnDamage, otherObject.ClosestPoint(transform.position), transform.rotation) as GameObject;
+                    thisHit.transform.parent = otherObject.transform;
+                    otherObject.GetComponent<MultishotEnemy>().burning = thisHit;
+                    Destroy(thisHit.gameObject, lifeTime * 5);
+                }
+            }
         }
         //Blocked by environment
         else if (otherObject.tag == "Environment") {
