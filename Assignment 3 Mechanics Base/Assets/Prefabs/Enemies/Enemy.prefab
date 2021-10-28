@@ -171,10 +171,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  health: 300
+  health: 250
   agroRange: 10
   damage: 5
-  rotationSpeed: 1
+  rotationSpeed: 2
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   laser: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6, type: 3}
   laserMuzzle: {fileID: 1737323326}
@@ -187,7 +187,7 @@ MonoBehaviour:
   deathClip: {fileID: 8300000, guid: dfe477c846a3d0848b7677f63752bf9e, type: 3}
   detectClip: {fileID: 8300000, guid: 2416c5eaab46dfe42b337e8733d1c51c, type: 3}
   wasDetected: 0
-  dropChance: 25
+  dropChance: 35
   HealthPack: {fileID: 5964720877096715479, guid: 1269ecbf91b50104aa1dbd2641c4ef33,
     type: 3}
   AmmoBox: {fileID: 6571354316034849480, guid: eeed428b62c98654083392bbaab0951a, type: 3}

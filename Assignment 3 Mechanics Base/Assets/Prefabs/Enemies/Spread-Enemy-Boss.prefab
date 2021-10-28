@@ -114,7 +114,7 @@ MonoBehaviour:
   boss: 0
   spawnChance: 10
   health: 1250
-  agroRange: 15
+  agroRange: 20
   damage: 15
   rotationSpeed: 2
   targetRotation: {x: 0, y: 0, z: 0, w: 0}

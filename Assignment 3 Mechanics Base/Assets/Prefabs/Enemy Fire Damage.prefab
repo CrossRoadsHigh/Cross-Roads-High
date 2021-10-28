@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  lifeTime: 1.5
+  lifeTime: 1
   burnDamage: {fileID: 3939077089846233796, guid: 7b00df5e248ba5842aada1b549233199,
     type: 3}
 --- !u!54 &557755798147950008

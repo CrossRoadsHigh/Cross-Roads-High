@@ -45,6 +45,22 @@ public class Enemy : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+        // Minions spawn facing a random direction
+        if (this.name == "Enemy-Boss")
+        {
+
+        }
+        else
+        {
+            float ranY = Random.Range(0.0f, 360.0f);
+            Vector3 ranYVector;
+            ranYVector.x = this.transform.rotation.x;
+            ranYVector.y = ranY;
+            ranYVector.z = this.transform.rotation.z;
+            this.transform.rotation = Quaternion.Euler(ranYVector);
+        }
+
         agent = GetComponent<NavMeshAgent>();
     }
 
