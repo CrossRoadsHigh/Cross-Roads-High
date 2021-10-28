@@ -271,3 +271,8 @@ MonoBehaviour:
   AmmoBox: {fileID: 6571354316034849480, guid: eeed428b62c98654083392bbaab0951a, type: 3}
   FuelPack: {fileID: 2374393348400003496, guid: 0ef9caafbf6f35c43a0f4c4733f98a87,
     type: 3}
+  audioObjectPrefab: {fileID: 6865235635844741477, guid: 3e129591b6b5b6e489e218f7178d02fb,
+    type: 3}
+  deathClip: {fileID: 8300000, guid: dfe477c846a3d0848b7677f63752bf9e, type: 3}
+  detectClip: {fileID: 8300000, guid: 2416c5eaab46dfe42b337e8733d1c51c, type: 3}
+  wasDetected: 0

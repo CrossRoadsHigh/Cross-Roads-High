@@ -84,7 +84,7 @@ MonoBehaviour:
   flameStream: {fileID: 5123256928176653037}
   thisAudioSource: {fileID: -858575676479475318}
   shooting: {fileID: 8300000, guid: 259f23c66ca5efa4081d0cca194d7dc3, type: 3}
-  flamethrower: {fileID: 0}
+  flamethrower: {fileID: 8300000, guid: 8ce1547e2f2c0f343be2092bd7ffd6b2, type: 3}
 --- !u!114 &5124662655992260324
 MonoBehaviour:
   m_ObjectHideFlags: 0
