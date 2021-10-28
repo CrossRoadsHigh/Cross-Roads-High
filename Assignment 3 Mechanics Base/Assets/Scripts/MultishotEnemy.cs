@@ -94,11 +94,11 @@ public class MultishotEnemy : MonoBehaviour
                 float packDrop = Random.Range(1, 100);
                 Debug.Log(packDrop);
 
-                if (33.0f > packDrop)
+                if (25.0f > packDrop)
                 {
                     Instantiate(AmmoBox, dropPoint, transform.rotation);
                 }
-                else if (66.0f > packDrop)
+                else if (50.0f > packDrop)
                 {
                     Instantiate(FuelPack, dropPoint, transform.rotation);
                 }

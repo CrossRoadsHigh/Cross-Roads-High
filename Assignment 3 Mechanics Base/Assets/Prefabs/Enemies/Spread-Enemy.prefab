@@ -255,8 +255,8 @@ MonoBehaviour:
   spawnChance: 0
   health: 250
   agroRange: 15
-  damage: 2.5
-  rotationSpeed: 2
+  damage: 1
+  rotationSpeed: 1
   targetRotation: {x: 0, y: 0, z: 0, w: 0}
   laser: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6, type: 3}
   laserMuzzle: {fileID: 3535669587272467820}

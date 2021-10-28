@@ -27,6 +27,8 @@ public class FlameEnemy : MonoBehaviour
     private float laserTime = 1.0f;
 
     public GameObject flameStream;
+    public GameObject flameStream2;
+    public GameObject flameStream3;
     private float flamerTimer;
     private float flamerTime = 10.0f;
 
@@ -44,6 +46,7 @@ public class FlameEnemy : MonoBehaviour
     public GameObject HealthPack;
     public GameObject AmmoBox;
     public GameObject FuelPack;
+    public float fireAngle;
 
     //Audio Variables
     public GameObject audioObjectPrefab;
@@ -76,6 +79,12 @@ public class FlameEnemy : MonoBehaviour
         //fireBool = false;
         agent = GetComponent<NavMeshAgent>();
         flameStream.GetComponent<ParticleSystem>().Stop();
+
+        if (this.name == "Flame-Enemy-Boss")
+        {
+            flameStream2.GetComponent<ParticleSystem>().Stop();
+            flameStream3.GetComponent<ParticleSystem>().Stop();
+        }
     }
 
     // Update is called once per frame
@@ -102,6 +111,13 @@ public class FlameEnemy : MonoBehaviour
         if (health <= 0)
         {
             flameStream.GetComponent<ParticleSystem>().Stop();
+
+            if (this.name == "Flame-Enemy-Boss")
+            {
+                flameStream2.GetComponent<ParticleSystem>().Stop();
+                flameStream3.GetComponent<ParticleSystem>().Stop();
+            }
+
             Instantiate(explosion, transform.position, transform.rotation);
             GameObject thisAudioObject = Instantiate(audioObjectPrefab, transform.position, Quaternion.identity);
             thisAudioObject.GetComponent<AudioSource>().clip = deathClip;
@@ -114,11 +130,11 @@ public class FlameEnemy : MonoBehaviour
                 float packDrop = Random.Range(1, 100);
                 Debug.Log(packDrop);
 
-                if (33.0f > packDrop)
+                if (25.0f > packDrop)
                 {
                     Instantiate(AmmoBox, dropPoint, transform.rotation);
                 }
-                else if (66.0f > packDrop)
+                else if (50.0f > packDrop)
                 {
                     Instantiate(FuelPack, dropPoint, transform.rotation);
                 }
@@ -177,12 +193,37 @@ public class FlameEnemy : MonoBehaviour
                     if (Time.time > flamerTimer)
                     {
                         flameStream.GetComponent<ParticleSystem>().Play();
+
+                        if (this.name == "Flame-Enemy-Boss")
+                        {
+                            flameStream2.GetComponent<ParticleSystem>().Play();
+                            flameStream3.GetComponent<ParticleSystem>().Play();
+                        }
+                        
                         flamerTimer = Time.time + flamerTime;
                     }
 
                     if (Time.time > FTFireTimer)
                     {
+                        
+
+
                         Instantiate(enemyFireDamage, flameStream.transform.position, transform.rotation);
+
+                        if (this.name == "Flame-Enemy-Boss")
+                        {
+                            Vector3 rightShot = laserMuzzle.transform.rotation.eulerAngles;
+                            rightShot = new Vector3(rightShot.x, rightShot.y + fireAngle, rightShot.z);
+
+                            Vector3 leftShot = laserMuzzle.transform.rotation.eulerAngles;
+                            leftShot = new Vector3(leftShot.x, leftShot.y - fireAngle, leftShot.z);
+
+                            Instantiate(enemyFireDamage, flameStream.transform.position, Quaternion.Euler(rightShot));
+                            Instantiate(enemyFireDamage, flameStream.transform.position, Quaternion.Euler(leftShot));
+                        }
+
+
+
                         FTFireTimer = Time.time + FTFireTime;
                     }
                 }
