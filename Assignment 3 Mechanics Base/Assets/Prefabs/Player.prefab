@@ -85,6 +85,7 @@ MonoBehaviour:
   thisAudioSource: {fileID: -858575676479475318}
   shooting: {fileID: 8300000, guid: 259f23c66ca5efa4081d0cca194d7dc3, type: 3}
   flamethrower: {fileID: 8300000, guid: 8ce1547e2f2c0f343be2092bd7ffd6b2, type: 3}
+  PauseMenuScript: {fileID: 0}
 --- !u!114 &5124662655992260324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,7 +127,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0

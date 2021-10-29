@@ -10,6 +10,7 @@ TagManager:
   - Environment
   - Ground
   - Boss
+  - Music
   layers:
   - Default
   - TransparentFX
