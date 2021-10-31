@@ -11,16 +11,38 @@ public class PauseMenuHandler : MonoBehaviour
     public GameObject Resume;
 
     public GameObject DeadText;
+    public GameObject WinText;
     public GameObject PausedText;
+
+    public bool Level3 = false;
+    public GameObject boss;
 
 
     private bool isPaused = false;
+    private bool doOnce = true;
 
 
     void Start()
     {
         PauseMenu.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    private void Update()
+    {
+        Debug.Log(!boss.activeInHierarchy);
+        if (Level3 && !boss.activeInHierarchy && doOnce)
+        {
+            PauseMenu.SetActive(true);
+            Restart.SetActive(false);
+            DeadText.SetActive(false);
+            Resume.SetActive(false);
+            PausedText.SetActive(false);
+
+            WinText.SetActive(true);
+
+            doOnce = false;
+        }
     }
 
     public void PauseGame(bool dead)
@@ -34,6 +56,7 @@ public class PauseMenuHandler : MonoBehaviour
             DeadText.SetActive(true);
             Resume.SetActive(false);
             PausedText.SetActive(false);
+            WinText.SetActive(false);
         }
         else
         {
@@ -41,6 +64,8 @@ public class PauseMenuHandler : MonoBehaviour
             PausedText.SetActive(true);
             Restart.SetActive(false);
             DeadText.SetActive(false);
+            WinText.SetActive(false);
+
         }
     }
 

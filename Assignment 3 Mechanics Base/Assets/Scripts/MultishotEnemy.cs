@@ -108,7 +108,8 @@ public class MultishotEnemy : MonoBehaviour
                 }
             }
 
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
+            gameObject.SetActive(false);
         }
     }
 
