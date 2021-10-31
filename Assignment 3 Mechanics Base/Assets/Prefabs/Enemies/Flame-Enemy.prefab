@@ -261,6 +261,8 @@ MonoBehaviour:
   laserMuzzle: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6,
     type: 3}
   flameStream: {fileID: 8477537081465015602}
+  flameStream2: {fileID: 0}
+  flameStream3: {fileID: 0}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
   enemyFireDamage: {fileID: 8658206190979730477, guid: 4b2d04b95fa92aa49bc6d9c789fc7f21,
@@ -271,6 +273,7 @@ MonoBehaviour:
   AmmoBox: {fileID: 6571354316034849480, guid: eeed428b62c98654083392bbaab0951a, type: 3}
   FuelPack: {fileID: 2374393348400003496, guid: 0ef9caafbf6f35c43a0f4c4733f98a87,
     type: 3}
+  fireAngle: 0
   audioObjectPrefab: {fileID: 6865235635844741477, guid: 3e129591b6b5b6e489e218f7178d02fb,
     type: 3}
   source: {fileID: 1789483599033002813}
@@ -300,9 +303,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 20
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -335,7 +338,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

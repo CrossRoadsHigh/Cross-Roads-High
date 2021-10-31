@@ -55,6 +55,10 @@ public class PlayerAvatar : MonoBehaviour {
             Movement();
             Shooting();
         }
+        else
+        {
+            thisAudioSource.Stop();
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
