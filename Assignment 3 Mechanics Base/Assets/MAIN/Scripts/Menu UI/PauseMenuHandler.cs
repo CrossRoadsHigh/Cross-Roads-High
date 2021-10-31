@@ -33,6 +33,8 @@ public class PauseMenuHandler : MonoBehaviour
         Debug.Log(!boss.activeInHierarchy);
         if (Level3 && !boss.activeInHierarchy && doOnce)
         {
+            Time.timeScale = 0;
+
             PauseMenu.SetActive(true);
             Restart.SetActive(false);
             DeadText.SetActive(false);
