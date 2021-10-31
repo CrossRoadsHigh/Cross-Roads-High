@@ -7,6 +7,7 @@ public class PlayNarrativeClip : MonoBehaviour
 {
     public AudioSource thisSource;
     public AudioSource musicSource;
+    public AudioSource playerSource;
     public PlayNarrativeClip nextNarrativeClip;
     public List<AudioSource> audioSources;
     public bool startedPlaying;
@@ -21,6 +22,7 @@ public class PlayNarrativeClip : MonoBehaviour
     public void Start()
     {
         musicSource = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
+        playerSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
     }
 
     public void Update()
@@ -28,6 +30,7 @@ public class PlayNarrativeClip : MonoBehaviour
         if (!thisSource.isPlaying && startedPlaying)
         {
             musicSource.volume = 0.8f;
+            playerSource.volume = 0.5f;
             narrativeGUI.SetActive(false);
 
             if (nextNarrativeClip != null)
@@ -55,6 +58,7 @@ public class PlayNarrativeClip : MonoBehaviour
         startedPlaying = true;
         thisSource.Play();
         musicSource.volume = 0.4f;
+        playerSource.volume = 0.125f;
         speakerNameText.text = speakerName;
         narrativeGUI.SetActive(true);
 
